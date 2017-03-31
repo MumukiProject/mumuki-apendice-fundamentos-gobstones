@@ -56,9 +56,77 @@ Ejemplo:
 
 ```gobstones
 program {
-  VaciarTablero() // En un tablero con alguna ó muchas bolitas, las saca todas.
+  VaciarTablero() // En un tablero con alguna o muchas bolitas, las saca todas.
 }
 ```
+
+# Functiones primitivas
+
+## `nroBolitas(color)`
+
+> Denota un número: la cantidad de bolitas del color indicado que hay en la casilla actual.
+
+Ejemplo: 
+
+```gobstones
+nroBolitas(Rojo) // denota 4
+```
+
+## `opuesto(direccion)`
+
+> Denota una dirección: la dirección opuesta a la provista
+
+Ejemplo:
+
+```gobstones
+opuesto(Norte) // denota Sur
+```
+
+## `opuesto(numero)`
+
+> Denota un número: el original, negado 
+
+Ejemplo: 
+
+```gobstenes
+opuesto(59) // denota -59
+```
+
+## `siguiente(direccion)`
+
+> Denota una dirección: la siguiente a la provista, es decir, la próxima en sentido horario.
+
+Ejemplo: 
+
+```gobstones
+siguiente(Oeste) // denota Norte
+siguiente(Norte) // denota Este
+siguiente(Este)  // denota Sur
+siguiente(Sur)   // denota Sur
+```
+
+## `previo(direccion)`
+
+> Denota una dirección: la anterior a la provista, es decir, la próxima en sentido anti horario.
+
+Ejemplo: 
+
+```gobstones
+previo(Sur) // denota Este
+```
+
+## `hayBolitas(color)`
+
+> Denota un booleano: es cierto cuando en la casilla actual hay al menos una bolita del valor indicado.
+
+Ejemplo: 
+
+```gobstones
+hayBolitas(Rojo) // denota cierto
+hayBolitas(Verde) // denota falso
+```
+
+
 
 # Expresiones lógicas y matemáticas
 
@@ -70,4 +138,7 @@ program {
 | x = y      | x == y    |
 | x ≠ y      | x /= y    |
 | x ≥ y      | x >= y    |
+
+
+
 
