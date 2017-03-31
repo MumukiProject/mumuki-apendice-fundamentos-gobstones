@@ -50,7 +50,7 @@ program {
 }
 ```
 
-## Functiones primitivas
+## Funciones primitivas
 
 ### `nroBolitas(color)`
 
