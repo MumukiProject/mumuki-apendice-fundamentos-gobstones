@@ -36,7 +36,7 @@ program {
 }
 ```
 
-## `IrAlBorde(direc)`
+## `IrAlBorde(direccion)`
 
 > Lleva el cabezal todo lo que se puede hacia la dirección indicada
 
@@ -66,7 +66,9 @@ program {
 
 > Denota un número: la cantidad de bolitas del color indicado que hay en la casilla actual.
 
-Ejemplo: 
+Ejemplo, asumiendo la siguiende celda actual: 
+
+![](https://raw.githubusercontent.com/MumukiProject/mumuki-apendice-fundamentos-gobstones/master/sample.png)
 
 ```gobstones
 nroBolitas(Rojo) // denota 4
@@ -119,7 +121,9 @@ previo(Sur) // denota Este
 
 > Denota un booleano: es cierto cuando en la casilla actual hay al menos una bolita del valor indicado.
 
-Ejemplo: 
+Ejemplo, asumiendo la siguiende celda actual: 
+
+![](https://raw.githubusercontent.com/MumukiProject/mumuki-apendice-fundamentos-gobstones/master/sample.png)
 
 ```gobstones
 hayBolitas(Rojo) // denota cierto
