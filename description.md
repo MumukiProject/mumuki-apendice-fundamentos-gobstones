@@ -111,14 +111,12 @@ hayBolitas(Verde) // denota falso
 
 ## Expresiones lógicas y matemáticas
 
-| Matemática | Gobstones |
-|------------|-----------|
-| `p ^ q`      | `p && q`    |
-| `p v q`      | `p || q`    |
-| `¬ p`        | `not p`     |
-| `x = y`      | `x == y`    |
-| `x ≠ y`      | `x /= y`   |
-| `x ≥ y`      | `x >= y`    |
+* `p ^ q` (_or_): `p && q`
+* `p v q` (_and_):  `p || q`
+* `¬ p` (_not_):  `not p`
+* `x = y` (igual):   `x == y`
+* `x ≠ y` (no igual):   `x /= y`
+* `x ≥ y` (mayor o igual):   `x >= y`
 
 
 
