@@ -113,12 +113,12 @@ hayBolitas(Verde) // denota falso
 
 | Matemática | Gobstones |
 |------------|-----------|
-| p ^ q      | p && q    |
-| p v q      | p || q    |
-| ¬ p        | not p     |
-| x = y      | x == y    |
-| x ≠ y      | x /= y    |
-| x ≥ y      | x >= y    |
+| `p ^ q`      | `p && q`    |
+| `p v q`      | `p || q`    |
+| `¬ p`        | `not p`     |
+| `x = y`      | `x == y`    |
+| `x ≠ y`      | `x /= y`   |
+| `x ≥ y`      | `x >= y`    |
 
 
 
