@@ -59,3 +59,15 @@ program {
   VaciarTablero() // En un tablero con alguna ó muchas bolitas, las saca todas.
 }
 ```
+
+# Expresiones lógicas y matemáticas
+
+| Matemática | Gobstones |
+|------------|-----------|
+| p ^ q      | p && q    |
+| p v q      | p || q    |
+| ¬ p        | not p     |
+| x = y      | x == y    |
+| x ≠ y      | x /= y    |
+| x ≥ y      | x >= y    |
+
