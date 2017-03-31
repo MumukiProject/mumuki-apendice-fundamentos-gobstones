@@ -1,1 +1,1 @@
-Este apéndice está basado en trabajo de Federico Aloi y Alfredo Sanzo
+Este apéndice está basado en ésta guía del lenguaje Gobstones creada por Federico Aloi y Alfredo Sanzo: http://inpr-sarmiento.github.io/assets/material/Gobstones%20-%20Gu%C3%ADa%20Biblioteca%20Machete%20-%20Inpr-Sarmiento%20-%20v1.3.pdf
