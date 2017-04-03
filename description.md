@@ -108,6 +108,14 @@ hayBolitas(Rojo) // denota cierto
 hayBolitas(Verde) // denota falso
 ```
 
+### `puedeMover(direccion)`
+
+Denota un booleano: si el cabezal puede moverse en esa dirección (o sea, no está en el borde). Por ejemplo, estando el cabezal en la esquina de abajo a la izquierda: 
+
+```gobstones
+puedeMover(Norte) // denota cierto
+puedeMover(Oeste) // denota falso
+```
 
 ## Expresiones lógicas y matemáticas
 
