@@ -35,27 +35,8 @@
 </li>
 
 <li><a title="" href="#procedimientos-primitivos">Procedimientos primitivos</a>
-<ul>
-<li><a title="" href="#ponercolor"><code>Poner(color)</code></a></li>
-<li><a title="" href="#sacarcolor"><code>Sacar(color)</code></a></li>
-<li><a title="" href="#moverdireccion"><code>Mover(direccion)</code></a></li>
-<li><a title="" href="#iralbordedireccion"><code>IrAlBorde(direccion)</code></a></li>
-<li><a title="" href="#vaciartablero"><code>VaciarTablero()</code></a></li>
-</ul>
-</li>
 
 <li><a title="" href="#funciones-primitivas">Funciones primitivas</a>
-<ul>
-<li><a title="" href="#nrobolitascolor"><code>nroBolitas(color)</code></a></li>
-<li><a title="" href="#opuestodireccion"><code>opuesto(direccion)</code></a></li>
-<li><a title="" href="#opuestonumero"><code>opuesto(numero)</code></a></li>
-<li><a title="" href="#siguientedireccion"><code>siguiente(direccion)</code></a></li>
-<li><a title="" href="#previodireccion"><code>previo(direccion)</code></a></li>
-<li><a title="" href="#haybolitascolor"><code>hayBolitas(color)</code></a></li>
-<li><a title="" href="#puedemoverdireccion"><code>puedeMover(direccion)</code></a></li>
-</ul>
-</li>
-<li><a title="" href="#expresiones-logicas-y-matematicas">Expresiones lógicas y matemáticas</a>
 
 <li><a title="" href="#videos-explicativos">Videos explicativos</a>
 <ul>
@@ -423,15 +404,6 @@ Retorna un booleano: es verdadero cuando el cabezal puede moverse en esa direcci
 puedeMover(Norte) // retorna verdadero
 puedeMover(Oeste) // retorna falso
 ```
-
-<h2 id="expresiones-logicas-y-matematicas">Expresiones lógicas y matemáticas</h2>
-
-* `p ^ q` (_and_): `p && q`
-* `p v q` (_or_):  `p || q`
-* `¬ p` (_not_):  `not p`
-* `x = y` (igual):   `x == y`
-* `x ≠ y` (no igual):   `x /= y`
-* `x ≥ y` (mayor o igual):   `x >= y`
 
 <h2 id="videos-explicativos">Videos explicativos</h2>
 
